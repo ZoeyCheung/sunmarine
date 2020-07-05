@@ -79,9 +79,7 @@ ul {
     float: right;
 }
 
-.navbar-nav {
-    float: right;
-}
+.navbar-nav {}
 
 .navbar-nav .active {
     font-weight: bold;
@@ -135,37 +133,20 @@ ul {
 }
 
 .banner {
-    width: auto;
-    background-image: url("../images/banner-1.png");
-    background-position: 0 -210px;
-    text-align: left;
+    position: relative;
 }
-
-.slogan {
-    color: #FFFFFF;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000000;
-    margin-left: 4rem;
-}
-
-.slogan1 {
-    padding-top: 10rem;
-}
-
-.slogan2 {
-    margin-left: 8rem;
-    margin-top: 1.5rem;
+.banner img{
+    width: 100%;
 }
 
 .main-business {
-    height: 680px;
     position: relative;
 }
 
 .main-business .business-list {
     position: absolute;
-    left: 30px;
-    bottom: -140px;
+    left: 0;
+    bottom: -160px;
 }
 
 .main-business .business-list img {
@@ -405,4 +386,8 @@ footer .contact p {
     color: var(--main-color);
     background-color: #FFFFFF;
     border: solid 1px var(--main-color);
+}
+
+.navbar-toggler span {
+    color: #FFFFFF;
 }

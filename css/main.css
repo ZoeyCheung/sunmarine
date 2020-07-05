@@ -19,7 +19,10 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    word-break:break-all;
+}
+
+p {
+    word-break: break-all;
 }
 
 a {
@@ -136,7 +139,8 @@ ul {
 .banner {
     position: relative;
 }
-.banner img{
+
+.banner img {
     width: 100%;
 }
 
@@ -262,18 +266,18 @@ ul {
     width: auto;
 }
 
-.device .device-title {
+.special-services .special-services-title {
     display: inline-block;
     margin-bottom: 50px;
 }
 
-.device .device-title h2 {
+.special-services .special-services-title h2 {
     clear: both;
     margin-bottom: 0;
     line-height: 60px;
 }
 
-.device .device-title span {
+.special-services .special-services-title span {
     border-bottom: solid 2px var(--main-color);
     font-size: 1rem;
     padding-bottom: 1rem
@@ -292,14 +296,10 @@ footer h4 {
     margin-bottom: 20px;
 }
 
-footer .contact {}
-
-footer .contact p {
+.contact-content p {
     margin: 0;
     line-height: 2rem;
 }
-
-.business-show {}
 
 .show-item {
     width: 136px;
@@ -364,10 +364,11 @@ footer .contact p {
     float: left;
 }
 
-.icp a{
+.icp a {
     color: #FFFFFF;
 }
-.icp a:hover{
+
+.icp a:hover {
     color: #000000;
 }
 
@@ -400,6 +401,6 @@ footer .contact p {
     color: #FFFFFF;
 }
 
-.contact-content{
+.contact-content {
     padding-top: 10px;
 }

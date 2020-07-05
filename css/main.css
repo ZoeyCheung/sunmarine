@@ -391,3 +391,7 @@ footer .contact p {
 .navbar-toggler span {
     color: #FFFFFF;
 }
+
+.contact-content{
+    padding-top: 10px;
+}

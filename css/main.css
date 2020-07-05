@@ -363,6 +363,13 @@ footer .contact p {
     float: left;
 }
 
+.icp a{
+    color: #FFFFFF;
+}
+.icp a:hover{
+    color: #000000;
+}
+
 .copyright-content {
     float: right;
 }

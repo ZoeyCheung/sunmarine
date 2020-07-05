@@ -6,16 +6,16 @@
     --business-bg-01: #2F837D;
     --business-bg-02: #D89349;
     --business-bg-03: #3387BC;
-    --business-bg-04: #D37740;
-    --business-bg-05: #666666;
-    --business-bg-06: #4C9047;
-    --business-bg-07: #AFA489;
+    --business-bg-05: #D37740;
+    --business-bg-06: #666666;
+    --business-bg-07: #4C9047;
+    --business-bg-08: #AFA489;
 }
 
 body {
     background-color: #FFFFFF;
     font-family: "Microsoft YaHei", 'Times New Roman', Times, serif;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -111,8 +111,7 @@ ul {
     flex-grow: 0;
 }
 
-.btn-ex {
-    color: var(--main-color);
+.navbar-nav .btn-ex {
     text-decoration: none;
     margin-left: 2rem;
     background-color: #FFFFFF;
@@ -120,14 +119,19 @@ ul {
     border-radius: 3px;
 }
 
-.btn-ex:hover {
+.navbar-nav .btn-ex a {
+    color: var(--main-color);
+}
+
+.navbar-nav .btn-ex a:hover {
     color: #000000;
     font-weight: normal;
     text-decoration: none;
 }
 
-.btn-ex span {
+.navbar-nav .btn-ex span {
     font-size: 1.5rem;
+    line-height: 35px;
 }
 
 .banner {
@@ -165,6 +169,7 @@ ul {
 }
 
 .main-business .business-list img {
+    width: 100%;
     background-color: #FFFFFF;
     padding: 4px;
     box-shadow: 2px 2px 4px #999999;
@@ -174,4 +179,209 @@ ul {
     text-align: center;
     font-size: 1rem;
     margin-top: 1rem;
+}
+
+.module {
+    margin: 30px auto;
+}
+
+.module img {
+    width: 100%;
+}
+
+.module h2 {
+    display: inline-block;
+    margin-bottom: 30px;
+    line-height: 80px;
+}
+
+.module h2 span {
+    padding-bottom: 1rem;
+    border-bottom: solid 2px var(--main-color);
+    letter-spacing: .4rem;
+}
+
+.module p {
+    text-align: left;
+    color: var(--main-text-color);
+    line-height: 1.8rem;
+    text-indent: 1.7rem;
+}
+
+.company-profile {
+    margin-top: 200px;
+}
+
+.sub-business-list {
+    margin-top: 40px;
+}
+
+.sub-business-list span {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sub-business-list p {
+    text-indent: 0;
+    margin-top: 10px;
+    line-height: 1.4rem;
+}
+
+.model-bg {
+    background-color: var(--sub-color);
+    padding: 30px 0;
+    margin: 30px auto;
+}
+
+.railway {}
+
+.railway .railway-photo {
+    height: 340px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.railway .railway-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.railway .railway-content {}
+
+.land {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.land h2.title-2 {
+    border-left: solid 4px var(--main-color);
+    line-height: 2.4rem;
+    margin: 0;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.land .land-photo {
+    height: 320px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.land .land-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.land .land-content {}
+
+.device {
+    display: inline;
+    width: auto;
+}
+
+.device .device-title {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.device .device-title h2 {
+    clear: both;
+    margin-bottom: 0;
+    line-height: 60px;
+}
+
+.device .device-title span {
+    border-bottom: solid 2px var(--main-color);
+    font-size: 1rem;
+    padding-bottom: 1rem
+}
+
+footer {
+    background-color: #000000;
+    padding: 30px 0;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+footer h4 {
+    padding-left: 20px;
+    border-left: solid 6px var(--main-color);
+    margin-bottom: 20px;
+}
+
+footer .contact {}
+
+footer .contact p {
+    margin: 0;
+    line-height: 2rem;
+}
+
+.business-show {}
+
+.show-item {
+    width: 136px;
+    height: 136px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.show-item span {
+    position: absolute;
+    bottom: 10px;
+    right: 14px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bs-1 {
+    background-color: var(--business-bg-01);
+}
+
+.bs-2 {
+    background-color: var(--business-bg-02);
+}
+
+.bs-3 {
+    background-color: var(--business-bg-03);
+}
+
+.bs-4 {
+    background-image: url("../images/s_-1.png");
+}
+
+.bs-5 {
+    background-color: var(--business-bg-05);
+}
+
+.bs-6 {
+    background-color: var(--business-bg-06);
+}
+
+.bs-7 {
+    background-color: var(--business-bg-07);
+}
+
+.bs-8 {
+    background-color: var(--business-bg-08);
+}
+
+.copyright {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.copyright .container {
+    display: inline-block;
+}
+
+.icp {
+    float: left;
+}
+
+.copyright-content {
+    float: right;
 }
